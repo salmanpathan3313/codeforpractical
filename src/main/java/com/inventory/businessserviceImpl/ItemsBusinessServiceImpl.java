@@ -89,7 +89,7 @@ public class ItemsBusinessServiceImpl implements ItemsBusinessService{
             ItemsRequestDto itemListModel = serviceUtil.convertItemListModel(itemList);
          }
           return new ResponseEntity(true, HttpStatus.OK.value(), HttpStatus.OK, itemListModel);
-//        hrd@zyapaar.com.
+//        
     }
 
   
